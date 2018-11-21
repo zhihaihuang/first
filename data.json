@@ -1,0 +1,27 @@
+{
+ "head":{
+     "number":"number",     
+     "date":"number",   
+     "department":"string",  
+     "operation":"string",    
+     "responsible":"string",  
+     "loss":"number",  
+     "serial":"number",  
+     "catalog":"string",   
+     "cylinder":"number", 
+     "model":"number",  
+     "machine":"string",
+     "color":"string",
+     "several":"string",
+     "weight":"number",
+     "shift":"string",
+     "clothclass":"string",
+     "answer":"string",
+     "customer":"string",
+     "woven":"string",
+     "value1":"number",
+     "desc":"string",
+     "desc1":"string",
+     "desc2":"string"
+ } 
+}
