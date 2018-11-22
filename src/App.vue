@@ -1,10 +1,9 @@
 <template>
   <div id="app">
-         <router-link to="./components/ratings.vue"><el-button type="primary">新增</el-button></router-link>
-          <router-link to="./components/seller.vue"><el-button type="primary">查询</el-button></router-link>
-         <!-- <el-button type="danger">保存</el-button>
-         <el-button type="primary">审核</el-button>
-         <el-button type="danger">查询</el-button>  -->
+         <!-- <router-link to="./components/ratings.vue"><el-button type="primary">新增</el-button></router-link>
+          <router-link to=""><el-button type="primary" @click="submitForm('formInline')" >保存</el-button></router-link>
+          <router-link to="./components/seller.vue"><el-button type="primary">查询</el-button></router-link> -->
+    
     <router-view></router-view>
   </div>
 </template>
@@ -14,6 +13,21 @@ export default {
   data () {
     return {
     }
+  },
+  mothods:{
+    //  submitForm(formName) {
+    //     this.$refs[formName].validate((valid) => {
+    //       if (valid) {
+    //         alert('submit!');
+    //       } else {
+    //         console.log('error submit!!');
+    //         return false;
+    //       }
+    //     });
+    //  },
+    //   resetForm(formName) {
+    //     this.$refs[formName].resetFields();
+    //   }
   }
 }
 </script>
