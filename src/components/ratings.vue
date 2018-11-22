@@ -210,7 +210,8 @@
  <!-- 编辑弹出框 -->
         <el-dialog title="编辑" :visible.sync="editVisible" width="35%">
             <el-form ref="form" :model="form" label-width="50px">
-               
+
+
                 <el-form-item label="1Why">
                     <el-input v-model="form.firstWhy"></el-input>
                 </el-form-item>
